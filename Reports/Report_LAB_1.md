@@ -9,8 +9,6 @@
   - [Liskov Substitution Principle (LSP)](#liskov-substitution-principle-lsp)
   - [Interface Segregation Principle (ISP)](#interface-segregation-principle-isp)
   - [Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
-- [Project Structure](#project-structure)
-- [Code Explanation](#code-explanation)
 - [Conclusion](#conclusion)
 
 ---
