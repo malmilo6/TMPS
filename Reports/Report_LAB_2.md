@@ -34,11 +34,7 @@ The Prototype design pattern is a creational design pattern that deals with obje
   - Supports cloning objects, useful when instantiation is more costly than copying.
   - Facilitates dynamic object creation based on existing prototypes.
 
-By integrating these patterns, the project demonstrates adherence to SOLID principles, especially:
-- **Single Responsibility Principle**: Each class and method has a clear, singular purpose.
-- **Open/Closed Principle**: The system can introduce new book types without altering existing code.
-
-Overall, the design promotes flexibility, extensibility, and maintainability in the system.
+By integrating these patterns, the project demonstrates adherence to SOLID principles.
 
 ## Conclusion
 The BookStore project serves as a testament to the significance of design patterns and SOLID principles in software design. By incorporating patterns like Singleton, Factory Method, Object Pooling, and Prototype, the project achieves modularity, scalability, and a higher degree of maintainability. Such design approaches not only enhance code quality but also ensure that the software is adaptable to future requirements and changes. In essence, adherence to well-established patterns and principles is pivotal for crafting robust and flexible software solutions in an ever-evolving tech landscape.
