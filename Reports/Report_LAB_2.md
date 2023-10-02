@@ -24,13 +24,13 @@ The Factory Method is a creational pattern that provides an interface for creati
 
 ### 3. Object Pooling
 Object Pooling is a design pattern where a set of initialized objects is kept ready to use rather than allocating and destroying them on demand. A pool helps to manage the object lifecycle: objects are "borrowed" from the pool, used, and then "returned" to the pool for reuse.
-- **Usability (Not explicitly shown)**: 
+- **Usability**: 
   - Enhances performance by reusing objects instead of frequent creation and destruction.
   - Ideal for resources that are expensive to initialize.
 
 ### 4. Prototype 
 The Prototype design pattern is a creational design pattern that deals with object creation by copying or "cloning" an existing object. This pattern is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects. The pattern is particularly useful when the construction of a new instance is more costly than copying an existing one or when objects have numerous shared configurations and only a few differences.
-- **Usability (Mentioned but not shown)**:
+- **Usability**:
   - Supports cloning objects, useful when instantiation is more costly than copying.
   - Facilitates dynamic object creation based on existing prototypes.
 
