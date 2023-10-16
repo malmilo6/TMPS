@@ -1,7 +1,7 @@
 package models;
 import domain.AccessibleImpl;
 
-public class ProxyContent implements Accessible {
+public class ProxyContent implements AccessibleImpl {
     RealContent realContent;
 
     @Override
