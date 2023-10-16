@@ -1,5 +1,5 @@
 package models;
-import domain.Media;
+import domain.MediaImpl;
 
 public class MediaAdapter implements MediaImpl {
     MP3Player mp3Player = new MP3Player();
