@@ -1,4 +1,5 @@
 package models;
+import domain.ContentImpl;
 
 public class LibraryFacade {
     MediaAdapter mediaAdapter = new MediaAdapter();
@@ -13,7 +14,7 @@ public class LibraryFacade {
     }
 
     public void showPremiumContent() {
-        Content premiumContent = new PremiumContentDecorator(new Book());
+        ContentImpl premiumContent = new PremiumContentDecorator(new Book());
         System.out.println(premiumContent.show());
     }
 }

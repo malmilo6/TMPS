@@ -2,9 +2,9 @@ package models;
 import domain.ContentImpl;
 
 public class PremiumContentDecorator implements ContentImpl {
-    Content content;
+    ContentImpl content;
 
-    public PremiumContentDecorator(Content content) {
+    public PremiumContentDecorator(ContentImpl content) {
         this.content = content;
     }
 
