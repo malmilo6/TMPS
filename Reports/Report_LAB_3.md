@@ -23,7 +23,7 @@ public class PremiumContentDecorator implements Content {
         return content.show() + " with bonus annotations";
     }
 }
-```java
+```
 
 ### Benefits: The Decorator pattern allows for the flexible addition of features to individual objects, without requiring subclassing.
 
@@ -42,7 +42,7 @@ public class LibraryFacade {
         System.out.println(premiumContent.show());
     }
 }
-```java
+```
 
 
 ### Benefits:
@@ -64,7 +64,7 @@ class MediaAdapter implements Media {
         mp3Player.playMP3();
     }
 }
-```java
+```
 
 
 ### Benefits:
@@ -95,7 +95,7 @@ class ProxyContent implements Accessible {
         System.out.println("Checking if user has access...");
     }
 }
-```java
+```
 
 
 ### Benefits:
